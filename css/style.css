@@ -41,11 +41,23 @@ p {
   #index-banner .section {
     top: 10%;
   }
+  .branding-text{
+    padding-top:20%;
+    font-size: 24px;
+  }
 }
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
+  }
+
+  .branding-container{
+    background:url('../images/branding.jpg') no-repeat center;
+  }
+
+  .branding-text{
+    font-size: 24px;
   }
 }
 
@@ -72,6 +84,6 @@ footer.page-footer {
 }
 
 .branding-text{
-  padding-top:22%;
+  padding-top: 20%;
   font-size: 8rem;
 }
